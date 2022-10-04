@@ -1,0 +1,147 @@
+body{
+    background: url(img/nen.gif) no-repeat center center fixed ;
+    background-size :cover ;
+}
+header
+{
+    width : 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin : 5px 0 ;
+}
+header > img {
+    border: 2px solid #9900CC;
+    border-radius: 100%;
+    box-shadow: 0 0 40px #9900CC;
+    
+}
+h1 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium ;
+    border-radius: 20px;
+    border: 2px solid #eee;
+    padding: 5px;
+    color: #000055;
+    background-color: #fffa;
+    font-weight: 100 ;
+}
+a 
+{
+    text-decoration: none;
+}
+.main
+{
+    margin : 50px
+}
+ul 
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+ul > li 
+{
+    padding: 10px;
+    position: relative;
+}
+li img 
+{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+li 
+{
+    background-color: #fffa;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #EEE5DE;
+}
+li:nth-child(2) img {
+    object-fit: cover;
+}
+.bottom
+{
+    margin: 0 auto;
+    margin-top : 50px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom > * {
+    width: 50%;
+}
+
+.one 
+{
+    margin-top : 10px ;
+    padding : 5px ;
+    background-color: #fffa;
+    border: 1px solid white;
+    border-radius:20px;
+    box-shadow: 0 0 30px #C60000;
+}
+.two 
+{
+    margin-top : 10px ;
+    padding : 5px ;
+    background-color: #fffa;
+    border: 1px solid white;
+    border-radius:20px;
+    box-shadow: 0 0 30px #FFA500;
+}
+.three 
+{
+    margin-top : 10px ;
+    padding : 5px ;
+    background-color: #fffa;
+    border: 1px solid white;
+    border-radius:20px;
+    box-shadow: 0 0 30px #7CFC00;
+}
+.four
+{
+    margin-top : 10px ;
+    padding : 5px ;
+    background-color: #fffa;
+    border: 1px solid white;
+    border-radius:20px;
+    box-shadow: 0 0 30px #00FFFF;
+}
+.saying 
+{
+    text-shadow: 0 0 2px #3366CC;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #fffa;
+    padding : 5px ;
+}
+
+@media screen and (max-width : 500px)
+{
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+}
+p {
+    text-align: center;
+    color: #F0F8FF;
+    text-shadow: 0 0 3px #00CAFF;
+}
+.cuoi {
+    text-align: center;
+    color: #F0F8FF;
+    text-shadow: 0 0 3px #00CAFF;
+}
+    
